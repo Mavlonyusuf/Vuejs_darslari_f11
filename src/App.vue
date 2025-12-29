@@ -1,10 +1,12 @@
-<script setup></script>
+<script setup>
+  import Navbar from "../components/Navbar.vue"
+</script>
 
 <template>
   <h1>You did it!</h1>
-  <p>
-    Hello World!
-  </p>
+  <Navbar/>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
